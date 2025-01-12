@@ -3,20 +3,159 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="styles/main.css" />
+    <!-- <link rel="stylesheet" href="styles/nav.css" /> -->
+    <link rel="stylesheet" href="styles/output.css" />
+    <script type="text/javascript" src="src/index.js"></script>
   </head>
   <body>
-    <div class="container">
-      <h1>
-        <div class="flex decorate">TRAVEL PAGE</div>
-      </h1>
-      <h2>
-        <ul>
-          <li>ABCD</li>
-          <li>xyz</li>
-          <li>123</li>
-        </ul>
-      </h2>
-      <h3>ABCD EFGH QRSTUV XYZ abc 123</h3>
+    <div class="fixed top-0 left-0 w-full h-full -z-40" id="background"></div>
+    <nav class="fixed w-full font-india z-10">
+      <div
+        class="bg-gradient-to-b from-gray-800 opacity-90 absolute w-full h-16 top-0 left-0"
+      ></div>
+      <div class="absolute inset-y-0 left-0 flex items-center sm:hidden z-10">
+        <!-- Mobile menu button-->
+        <button
+          type="button"
+          class="relative inline-flex items-center justify-center rounded-md p-2 text-india-yellow hover:text-india-red"
+          aria-controls="mobile-menu"
+          aria-expanded="false"
+          id="mobile-navbar-btn"
+        >
+          <span class="absolute -inset-0.5"></span>
+          <span class="sr-only">Open main menu</span>
+          <!--
+            Icon when menu is closed.
+
+            Menu open: "hidden", Menu closed: "block"
+          -->
+          <svg
+            class="block size-6"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            aria-hidden="true"
+            data-slot="icon"
+            id="menu-open-btn"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+            />
+          </svg>
+          <!--
+            Icon when menu is open.
+
+            Menu open: "block", Menu closed: "hidden"
+          -->
+          <svg
+            class="hidden size-6"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            aria-hidden="true"
+            data-slot="icon"
+            id="menu-close-btn"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M6 18 18 6M6 6l12 12"
+            />
+          </svg>
+        </button>
+      </div>
+      <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8" id="desktop-menu">
+        <div class="relative flex h-16 items-center justify-between">
+          <div
+            class="flex flex-1 items-center justify-end sm:justify-between sm:items-stretch"
+          >
+            <div class="hidden sm:ml-6 sm:block">
+              <div class="flex space-x-4">
+                <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
+                <a
+                  href="./index.html"
+                  class="px-3 py-2 text-lg font-medium text-white hover:underline"
+                  aria-current="page"
+                  >Home</a
+                >
+                <a
+                  href="./travel.html"
+                  class="px-3 py-2 text-lg font-medium text-white hover:underline"
+                  >Travel</a
+                >
+                <a
+                  href="./venue.html"
+                  class="px-3 py-2 text-lg font-medium text-white hover:underline"
+                  >Venue</a
+                >
+                <a
+                  href="./events.html"
+                  class="px-3 py-2 text-lg font-medium text-white hover:underline"
+                  >Events</a
+                >
+                <a
+                  href="./faq.html"
+                  class="px-3 py-2 text-lg font-medium text-white hover:underline"
+                  >FAQ</a
+                >
+              </div>
+            </div>
+            <div
+              class="px-3 py-2 text-lg text-india-yellow sm:block self-end justify-self-end"
+            >
+              MITCH & ALYA
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Mobile menu, show/hide based on menu state. -->
+    </nav>
+    <div class="h-16"></div>
+    <div
+      class="z-1 sm:hidden bg-paper shadow-lg absolute top-0 h-full w-1/2 transition-transform duration-300 ease-in-out delay-150 -translate-x-80"
+      id="mobile-menu"
+    >
+      <div class="space-y-1 px-2 pb-3 pt-16 flex flex-col items-start">
+        <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
+        <a
+          href="./index.html"
+          class="block rounded-md px-3 py-2 text-lg font-medium text-india-red india-shadow font-india"
+          aria-current="page"
+          >Home</a
+        >
+        <a
+          href="./travel.html"
+          class="block rounded-md px-3 py-2 text-lg font-medium text-india-red india-shadow font-india"
+          >Travel</a
+        >
+        <a
+          href="./venue.html"
+          class="block rounded-md px-3 py-2 text-lg font-medium text-india-red india-shadow font-india"
+          >Venue</a
+        >
+        <a
+          href="./events.html"
+          class="block rounded-md px-3 py-2 text-lg font-medium text-india-red india-shadow font-india"
+          >Events</a
+        >
+        <a
+          href="./faq.html"
+          class="block rounded-md px-3 py-2 text-lg font-medium text-india-red india-shadow font-india"
+          >FAQ</a
+        >
+      </div>
+    </div>
+    <!-- #### BEGIN PAGE CONTENT #### -->
+    <div class="font-india text-india-red">
+      <div class="container mx-auto flex flex-col space-y-2 py-8">
+        <div class="text-6xl india-shadow">TRAVEL</div>
+      </div>
+      <div class="container mx-auto bg-goa"></div>
     </div>
   </body>
 </html>
