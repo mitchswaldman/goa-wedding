@@ -9,7 +9,7 @@
   </head>
   <body>
     <div class="fixed top-0 left-0 w-full h-full -z-40" id="background"></div>
-    <nav class="fixed w-full font-india z-10">
+    <nav class="fixed w-full font-india z-30">
       <div
         class="bg-gradient-to-b from-gray-800 opacity-90 absolute w-full h-16 top-0 left-0"
       ></div>
@@ -74,32 +74,38 @@
             class="flex flex-1 items-center justify-end sm:justify-between sm:items-stretch"
           >
             <div class="hidden sm:ml-6 sm:block">
-              <div class="flex space-x-4">
+              <div class="flex space-x-4 text-white">
                 <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
                 <a
                   href="./index.html"
-                  class="px-3 py-2 text-lg font-medium text-white hover:underline"
+                  class="px-3 py-2 text-lg font-medium hover:underline"
                   aria-current="page"
                   >Home</a
                 >
                 <a
                   href="./travel.html"
-                  class="px-3 py-2 text-lg font-medium text-white hover:underline"
+                  class="px-3 py-2 text-lg font-medium hover:underline"
                   >Travel</a
                 >
                 <a
                   href="./venue.html"
-                  class="px-3 py-2 text-lg font-medium text-white hover:underline"
+                  class="px-3 py-2 text-lg font-medium hover:underline"
                   >Venue</a
                 >
                 <a
                   href="./events.html"
-                  class="px-3 py-2 text-lg font-medium text-white hover:underline"
+                  class="px-3 py-2 text-lg font-medium hover:underline"
                   >Events</a
                 >
                 <a
+                  href="./attire.html"
+                  class="px-3 py-2 text-lg font-medium hover:underline"
+                >
+                  Attire
+                </a>
+                <a
                   href="./faq.html"
-                  class="px-3 py-2 text-lg font-medium text-white hover:underline"
+                  class="px-3 py-2 text-lg font-medium hover:underline"
                   >FAQ</a
                 >
               </div>
@@ -115,9 +121,9 @@
 
       <!-- Mobile menu, show/hide based on menu state. -->
     </nav>
-    <div class="h-16"></div>
+
     <div
-      class="z-1 sm:hidden bg-paper shadow-lg absolute top-0 h-full w-1/2 transition-transform duration-300 ease-in-out delay-150 -translate-x-80"
+      class="z-20 sm:hidden bg-paper shadow-lg fixed top-0 h-full w-1/2 transition-transform duration-300 ease-in-out delay-150 -translate-x-80"
       id="mobile-menu"
     >
       <div class="space-y-1 px-2 pb-3 pt-16 flex flex-col items-start">
@@ -144,6 +150,11 @@
           >Events</a
         >
         <a
+          href="./attire.html"
+          class="block rounded-md px-3 py-2 text-lg font-medium text-india-red india-shadow font-india"
+          >Attire</a
+        >
+        <a
           href="./faq.html"
           class="block rounded-md px-3 py-2 text-lg font-medium text-india-red india-shadow font-india"
           >FAQ</a
@@ -151,11 +162,8 @@
       </div>
     </div>
     <!-- #### BEGIN PAGE CONTENT #### -->
-    <div class="font-india text-india-red">
-      <div class="container mx-auto flex flex-col space-y-2 py-8">
-        <div class="text-6xl india-shadow">TRAVEL</div>
-      </div>
-      <div class="container mx-auto bg-goa"></div>
-    </div>
+    <!-- ## SPACER -->
+    <div class="h-16"></div>
+    <div class="font-india text-india-red india-shadow text-6xl">Travel</div>
   </body>
 </html>

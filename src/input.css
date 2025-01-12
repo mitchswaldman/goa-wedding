@@ -47,6 +47,10 @@
     background-size: 24px;
   }
 
+  .bg-airindia {
+    background-image: url('../images/air_india_india.webp');
+  }
+
   .bg-paper {
     background-repeat: repeat;
     background-size: 100px 100px;
