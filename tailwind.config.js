@@ -4,8 +4,9 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'india-red': '#ff0606',
+        'india-red': 'rgb(224 0 0)',
         'india-yellow': '#ffcc00',
+        'india-blue': '#67ade7',
       },
     },
     fontFamily: {
@@ -13,6 +14,7 @@ module.exports = {
       serif: ['ui-serif', 'Georgia'],
       mono: ['ui-monospace', 'SFMono-Regular'],
       india: ['EphemeraEgyptian'],
+      ballet: ['Ballet'],
     },
   },
   plugins: [],

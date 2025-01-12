@@ -9,7 +9,7 @@
   </head>
   <body>
     <div class="fixed top-0 left-0 w-full h-full -z-40" id="background"></div>
-    <nav class="fixed w-full font-india z-10">
+    <nav class="fixed w-full font-india z-30">
       <div
         class="bg-gradient-to-b from-gray-800 opacity-90 absolute w-full h-16 top-0 left-0"
       ></div>
@@ -98,6 +98,12 @@
                   >Events</a
                 >
                 <a
+                  href="./attire.html"
+                  class="px-3 py-2 text-lg font-medium hover:underline"
+                >
+                  Attire
+                </a>
+                <a
                   href="./faq.html"
                   class="px-3 py-2 text-lg font-medium hover:underline"
                   >FAQ</a
@@ -115,9 +121,9 @@
 
       <!-- Mobile menu, show/hide based on menu state. -->
     </nav>
-    <div class="h-16"></div>
+
     <div
-      class="z-1 sm:hidden bg-paper shadow-lg absolute top-0 h-full w-1/2 transition-transform duration-300 ease-in-out delay-150 -translate-x-80"
+      class="z-20 sm:hidden bg-paper shadow-lg fixed top-0 h-full w-1/2 transition-transform duration-300 ease-in-out delay-150 -translate-x-80"
       id="mobile-menu"
     >
       <div class="space-y-1 px-2 pb-3 pt-16 flex flex-col items-start">
@@ -144,6 +150,11 @@
           >Events</a
         >
         <a
+          href="./attire.html"
+          class="block rounded-md px-3 py-2 text-lg font-medium text-india-red india-shadow font-india"
+          >Attire</a
+        >
+        <a
           href="./faq.html"
           class="block rounded-md px-3 py-2 text-lg font-medium text-india-red india-shadow font-india"
           >FAQ</a
@@ -151,14 +162,147 @@
       </div>
     </div>
     <!-- #### BEGIN PAGE CONTENT #### -->
-    <div class="font-india text-india-red">
-      <div class="container mx-auto flex flex-col space-y-2 py-8">
-        <div class="text-6xl india-shadow">MITCH & ALYA</div>
-        <div class="text-5xl india-shadow">NOVEMBER 25 - 26, 2025</div>
-        <div class="text-4xl india-shadow">GOA, INDIA</div>
-        <div class="text-4xl india-shadow">BELEZA BY THE BEACH</div>
+    <!-- ## SPACER -->
+    <div class="h-16"></div>
+    <!-- ### INVITE CARD SECTION -->
+    <!-- set a default spacer to render the card in -->
+    <div class="mx-8">
+      <div class="card">
+        <div class="font-india text-india-red india-shadow text-5xl">
+          MITCH <span class="text-black opacity-55 text-4xl">&</span> ALYA
+        </div>
+        <div class="py-4 my-2 h-4 w-full">
+          <div class="bg-star h-[24px]"></div>
+        </div>
+        <div class="font-india text-india-red text-3xl india-shadow py-2">
+          NOV 25 - 26, 2025
+        </div>
+        <div class="font-india text-india-red text-3xl india-shadow">
+          BELEZA BY THE BEACH
+        </div>
+        <div class="font-india text-india-red text-3xl india-shadow">
+          GOA, INDIA
+        </div>
+        <div class="py-4">
+          <button class="btn-brutalist">RSVP</button>
+        </div>
       </div>
-      <div class="container mx-auto bg-goa"></div>
     </div>
+    <div class="h-4"></div>
+    <div class="mx-8">
+      <div class="card">
+        <div class="font-india text-india-red india-shadow text-3xl">
+          LOCATION
+        </div>
+        <div class="py-4 my-2 h-4 w-full">
+          <div class="bg-star h-[24px]"></div>
+        </div>
+        <div class="font-india text-india-red text-2xl py-2">
+          We are stoked to celebrate with you in Goa at Beleza by the Beach 🏝
+        </div>
+        <div class="font-india text-india-blue text-lg py-2">
+          Beach, Thondwaddo, Colva, Betalbatim, Goa 403708, India
+        </div>
+        <div class="flex justify-around w-full py-2">
+          <div class="">
+            <button class="btn-brutalist">
+              <a href="https://belezagoa.com/" target="_blank">WEBSITE</a>
+            </button>
+          </div>
+          <div class="">
+            <button class="btn-brutalist">
+              <a
+                href="https://www.google.com/maps/place/Beleza+By+The+Beach/@15.2908882,73.9091693,17z/data=!4m9!3m8!1s0x3bbfb698b8211dc7:0x1e4d01aacdd22c08!5m2!4m1!1i2!8m2!3d15.2908882!4d73.9117496!16s%2Fg%2F1vgw7299?entry=ttu&g_ep=EgoyMDI1MDEwOC4wIKXMDSoASAFQAw%3D%3D"
+                target="_blank"
+                >MAP VIEW</a
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="h-4"></div>
+    <div class="mx-8">
+      <div class="card">
+        <div class="font-india text-india-red india-shadow text-3xl">WHEN?</div>
+        <div class="py-4 my-2 h-4 w-full">
+          <div class="bg-star h-[24px]"></div>
+        </div>
+        <div class="font-india text-india-red text-2xl py-2">
+          November 25 & 26, 2025
+        </div>
+        <div class="font-india text-india-red text-lg py-2">
+          For the full event schedule, see
+          <a class="underline text-india-blue" href="./events.html"
+            >the Events page</a
+          >
+        </div>
+        <div class="font-india text-india-red text-lg">
+          Click to add to calendar
+        </div>
+        <div class="flex justify-around w-full py-2">
+          <div class="">
+            <button class="btn-brutalist">
+              <a href="https://belezagoa.com/" target="_blank">GOOGLE CAL</a>
+            </button>
+          </div>
+          <div class="">
+            <button class="btn-brutalist">
+              <a
+                href="https://www.google.com/maps/place/Beleza+By+The+Beach/@15.2908882,73.9091693,17z/data=!4m9!3m8!1s0x3bbfb698b8211dc7:0x1e4d01aacdd22c08!5m2!4m1!1i2!8m2!3d15.2908882!4d73.9117496!16s%2Fg%2F1vgw7299?entry=ttu&g_ep=EgoyMDI1MDEwOC4wIKXMDSoASAFQAw%3D%3D"
+                target="_blank"
+                >APPLE CAL</a
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="h-4"></div>
+    <div class="mx-8">
+      <div class="card">
+        <div class="font-india text-india-red india-shadow text-3xl">
+          TRAVEL
+        </div>
+        <div class="py-4 my-2 h-4 w-full">
+          <div class="bg-star h-[24px]"></div>
+        </div>
+        <div class="font-india text-india-red text-lg py-2">
+          We recommend booking air travel to Goa Dabolim International Airport.
+        </div>
+        <div class="font-india text-india-red text-lg py-2">
+          Ground transportation between the airport and the hotel will be
+          provided for you.
+        </div>
+        <div class="font-india text-india-red text-lg">
+          For full details, see
+          <a class="underline text-india-blue" href="./travel.html"
+            >the Travel page.</a
+          >
+        </div>
+      </div>
+    </div>
+    <div class="h-4"></div>
+    <div class="mx-8">
+      <div class="card">
+        <div class="font-india text-india-red india-shadow text-3xl">
+          WHAT TO WEAR
+        </div>
+        <div class="py-4 my-2 h-4 w-full">
+          <div class="bg-star h-[24px]"></div>
+        </div>
+        <div class="font-india text-india-red text-lg py-2">
+          We recommend Indian wedding attire with an emphasis on cool clothing,
+          as it will be hot in Goa.
+        </div>
+        <div class="font-india text-india-red text-lg py-2">
+          For the full breakdown of what to wear, see
+          <a class="underline text-india-blue" href="./attire.html"
+            >the Attire page.</a
+          >
+        </div>
+      </div>
+    </div>
+    <div class="h-8"></div>
   </body>
 </html>

@@ -11,9 +11,25 @@
     src: url('../fonts/EphemeraEgyptian-CondensedSemibold.otf')
       format('opentype');
   }
+
+  @font-face {
+    font-family: 'Ballet';
+    font-style: normal;
+    font-weight: 200;
+    font-display: swap;
+    src: url('../fonts/Ballet_24pt-Regular.ttf') format('truetype');
+  }
 }
 
 @layer components {
+  .card {
+    @apply bg-paper drop-shadow-xl flex flex-col items-center py-8 px-4;
+  }
+
+  .btn-brutalist {
+    @apply border-india-blue border-4 px-2 py-1 text-india-blue;
+  }
+
   .india-shadow {
     text-shadow: 1px 0px 0 white, 2px 1px 0 theme(colors.india-yellow);
   }
@@ -23,7 +39,12 @@
   }
 
   .bg-goa {
-    background-image: url('../images/goa_1.webp');
+    background-image: url('../images/goa_beach_watercolor.jpeg');
+  }
+
+  .bg-star {
+    background-image: url('../images/bullet_point_2.png');
+    background-size: 24px;
   }
 
   .bg-paper {
