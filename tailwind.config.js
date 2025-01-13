@@ -18,6 +18,7 @@ module.exports = {
       mono: ['ui-monospace', 'SFMono-Regular'],
       india: ['EphemeraEgyptian'],
       ballet: ['Ballet'],
+      kobe: ['Kobe'],
     },
   },
   plugins: [],

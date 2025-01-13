@@ -19,15 +19,23 @@
     font-display: swap;
     src: url('../fonts/Ballet_24pt-Regular.ttf') format('truetype');
   }
+
+  @font-face {
+    font-family: 'Kobe';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url('../fonts/Kobe-Regular.woff') format('woff');
+  }
 }
 
 @layer components {
   .card {
-    @apply bg-paper drop-shadow-xl flex flex-col items-center py-8 px-4;
+    @apply bg-paper drop-shadow-xl flex flex-col items-start py-8 px-4;
   }
 
   .btn-brutalist {
-    @apply border-india-blue border-4 px-2 py-1 text-india-blue;
+    @apply border-india-blue border-4 px-2 py-1 text-india-blue font-india;
   }
 
   .india-shadow {
