@@ -619,6 +619,20 @@ video {
   color: rgb(103 173 231 / var(--tw-text-opacity, 1));
 }
 
+.page-title {
+  text-shadow: 1px 0px 0 white, 2px 1px 0 #ffcc00;
+  border-width: 4px;
+  --tw-border-opacity: 1;
+  border-color: rgb(224 0 0 / var(--tw-border-opacity, 1));
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  font-family: Kobe;
+  --tw-text-opacity: 1;
+  color: rgb(224 0 0 / var(--tw-text-opacity, 1));
+}
+
 .india-shadow {
   text-shadow: 1px 0px 0 white, 2px 1px 0 #ffcc00;
 }
@@ -638,6 +652,14 @@ video {
 
 .bg-airindia-travel {
   background-image: url('../images/air_india_travel.jpg');
+}
+
+.bg-airindia-faq {
+  background-image: url('../images/air_india_faq.jpg');
+}
+
+.bg-beleza {
+  background-image: url('../images/beleza.jpg');
 }
 
 .bg-paper {
@@ -726,11 +748,6 @@ video {
   margin-bottom: 0.5rem;
 }
 
-.my-8 {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-}
-
 .block {
   display: block;
 }
@@ -754,11 +771,6 @@ video {
 .size-6 {
   width: 1.5rem;
   height: 1.5rem;
-}
-
-.size-24 {
-  width: 6rem;
-  height: 6rem;
 }
 
 .size-8 {
@@ -796,10 +808,6 @@ video {
 
 .w-full {
   width: 100%;
-}
-
-.w-3\/4 {
-  width: 75%;
 }
 
 .max-w-7xl {
@@ -880,24 +888,6 @@ video {
   background-color: rgb(17 24 39 / var(--tw-bg-opacity, 1));
 }
 
-.bg-black {
-  --tw-bg-opacity: 1;
-  background-color: rgb(0 0 0 / var(--tw-bg-opacity, 1));
-}
-
-.bg-white {
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
-}
-
-.bg-opacity-40 {
-  --tw-bg-opacity: 0.4;
-}
-
-.bg-opacity-60 {
-  --tw-bg-opacity: 0.6;
-}
-
 .bg-gradient-to-b {
   background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
 }
@@ -948,6 +938,10 @@ video {
   padding-bottom: 0.75rem;
 }
 
+.pb-8 {
+  padding-bottom: 2rem;
+}
+
 .pt-16 {
   padding-top: 4rem;
 }
@@ -981,11 +975,6 @@ video {
 
 .text-5xl {
   font-size: 3rem;
-  line-height: 1;
-}
-
-.text-6xl {
-  font-size: 3.75rem;
   line-height: 1;
 }
 
@@ -1049,11 +1038,6 @@ video {
   --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
   --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-}
-
-.drop-shadow-md {
-  --tw-drop-shadow: drop-shadow(0 4px 3px rgb(0 0 0 / 0.07)) drop-shadow(0 2px 2px rgb(0 0 0 / 0.06));
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
 .transition-transform {
