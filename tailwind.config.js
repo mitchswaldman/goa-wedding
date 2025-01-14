@@ -9,8 +9,11 @@ module.exports = {
       colors: {
         'india-red': 'rgb(224 0 0)',
         'india-yellow': '#ffcc00',
-        'india-blue': '#67ade7',
+        'india-blue': 'rgb(44 100 206)',
       },
+    },
+    container: {
+      center: true,
     },
     fontFamily: {
       sans: ['ui-sans-serif', 'system-ui'],
