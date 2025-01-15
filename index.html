@@ -2,6 +2,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hind+Mysuru:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles/main.css" />
     <!-- <link rel="stylesheet" href="styles/nav.css" /> -->
     <link rel="stylesheet" href="styles/output.css" />
@@ -13,7 +19,9 @@
       <div
         class="bg-gradient-to-b from-gray-800 opacity-90 absolute w-full h-16 top-0 left-0"
       ></div>
-      <div class="absolute inset-y-0 left-0 flex items-center sm:hidden z-10">
+      <div
+        class="absolute inset-y-0 left-0 flex items-center sm:hidden z-10 hidden"
+      >
         <!-- Mobile menu button-->
         <button
           type="button"
@@ -169,14 +177,16 @@
     <div class="mx-8 sm:container font-india india-shadow">
       <div class="card bg-paper-texture items-center relative sm:max-w-[400px]">
         <div
+          class="absolute top-0 bottom-[50%] left-[64%] right-0 bg-pothos bg-contain bg-no-repeat"
+        ></div>
+
+        <div
           class="absolute top-5 bottom-5 left-5 right-5 border-india-red border-4"
-        ></div>
-        <div
-          class="-z-10 absolute top-0 bottom-[50%] left-[64%] right-0 bg-pothos bg-contain bg-no-repeat"
-        ></div>
-        <div
-          class="-z-10 absolute top-[65%] bottom-0 left-0 right-[55%] bg-monstera bg-contain bg-no-repeat"
-        ></div>
+        >
+          <div
+            class="absolute bottom-0 left-0 bg-monstera bg-100 bg-no-repeat w-[7rem] h-[10rem]"
+          ></div>
+        </div>
         <div class="text-india-red text-5xl py-2 pt-8">MITCH</div>
         <div class="text-india-red text-5xl py-2">&</div>
         <div class="text-india-red text-5xl py-2">ALYA</div>
@@ -193,117 +203,60 @@
         </div>
       </div>
     </div>
-    <div class="h-4"></div>
-    <div class="mx-8 font-kobe">
-      <div class="card">
-        <div class="font-kobe text-india-red india-shadow text-3xl">
-          LOCATION
-        </div>
-        <div class="py-4 my-2 h-4 w-full">
-          <div class="bg-star h-[24px]"></div>
-        </div>
-        <div class="text-india-red text-2xl py-2">
-          We are stoked to celebrate with you in Goa at Beleza by the Beach
-        </div>
-        <div class="text-india-red text-lg py-2">
-          See
-          <a class="text-india-blue underline" href="./venue.html"
-            >the Venue page</a
+    <div class="h-4 relative"></div>
+    <div class="font-kobe px-8 -mt-32 pt-32 pt bg-paper-texture">
+      <div class="card hind-mysuru-regular">
+        <div class="flex flex-col items-start">
+          <div
+            class="font-kobe text-india-red text-4xl text-center font-bold india-shadow"
           >
-          for full details.
+            WHEN
+          </div>
+          <div class="py-4 text-left">
+            <div class="text-india-green text-2xl">Tuesday, November 25 -</div>
+            <div class="text-india-green text-2xl">Wednesday, November 26,</div>
+            <div class="text-india-green text-2xl">2025</div>
+          </div>
         </div>
-        <div class="flex justify-around w-full py-2">
-          <div class="">
-            <button class="btn-brutalist">
-              <a href="https://belezagoa.com/" target="_blank">WEBSITE</a>
-            </button>
+
+        <div class="py-4">
+          <div class="text-india-green text-xl">
+            Hotel check-in: Nov 25, 2PM
           </div>
-          <div class="">
-            <button class="btn-brutalist">
-              <a
-                href="https://www.google.com/maps/place/Beleza+By+The+Beach/@15.2908882,73.9091693,17z/data=!4m9!3m8!1s0x3bbfb698b8211dc7:0x1e4d01aacdd22c08!5m2!4m1!1i2!8m2!3d15.2908882!4d73.9117496!16s%2Fg%2F1vgw7299?entry=ttu&g_ep=EgoyMDI1MDEwOC4wIKXMDSoASAFQAw%3D%3D"
-                target="_blank"
-                >MAP VIEW</a
-              >
-            </button>
+          <div class="text-india-green text-xl">
+            Hotel check-out: Nov 27, 11AM
           </div>
+        </div>
+
+        <div class="py-4"></div>
+
+        <div class="flex flex-col items-end text-right">
+          <div class="font-kobe text-india-red text-4xl font-bold india-shadow">
+            WHERE
+          </div>
+          <div class="py-4">
+            <div class="text-india-green text-2xl">Beleza by the Beach</div>
+            <div class="text-india-green text-2xl">Goa, India</div>
+          </div>
+          <div class="py-4">
+            <div class="text-india-green text-xl">
+              Located 20 km south of the Goa Dabolim International Airport
+            </div>
+          </div>
+        </div>
+
+        <div class="py-8 h-4 w-full flex justify-evenly">
+          <div class="bg-star h-[36px] w-[36px] bg-[size:36px]"></div>
+          <div class="bg-star h-[36px] w-[36px] bg-[size:36px]"></div>
+          <div class="bg-star h-[36px] w-[36px] bg-[size:36px]"></div>
+        </div>
+        <div class="flex flex-col items-center self-center py-4">
+          <button class="btn-brutalist text-2xl px-4 py-1">RSVP</button>
+          <div class="py-4"></div>
+          <div class="text-india-green text-xl">Please RSVP by February 28</div>
+          <div class="text-india-green text-xl">More details coming soon!</div>
         </div>
       </div>
     </div>
-    <div class="h-4"></div>
-    <div class="mx-8 font-kobe">
-      <div class="card">
-        <div class="text-india-red india-shadow text-3xl">WHEN?</div>
-        <div class="py-4 my-2 h-4 w-full">
-          <div class="bg-star h-[24px]"></div>
-        </div>
-        <div class="text-india-red text-2xl py-2">November 25 & 26, 2025</div>
-        <div class="text-india-red text-lg py-2">
-          For the full event schedule, see
-          <a class="underline text-india-blue" href="./events.html"
-            >the Events page.</a
-          >
-        </div>
-        <div class="text-india-red text-lg">Click to add to calendar</div>
-        <div class="flex justify-around w-full py-2">
-          <div class="">
-            <button class="btn-brutalist">
-              <a href="https://belezagoa.com/" target="_blank">GOOGLE CAL</a>
-            </button>
-          </div>
-          <div class="">
-            <button class="btn-brutalist">
-              <a
-                href="https://www.google.com/maps/place/Beleza+By+The+Beach/@15.2908882,73.9091693,17z/data=!4m9!3m8!1s0x3bbfb698b8211dc7:0x1e4d01aacdd22c08!5m2!4m1!1i2!8m2!3d15.2908882!4d73.9117496!16s%2Fg%2F1vgw7299?entry=ttu&g_ep=EgoyMDI1MDEwOC4wIKXMDSoASAFQAw%3D%3D"
-                target="_blank"
-                >APPLE CAL</a
-              >
-            </button>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="h-4"></div>
-    <div class="mx-8">
-      <div class="card font-kobe">
-        <div class="text-india-red india-shadow text-3xl">TRAVEL</div>
-        <div class="py-4 my-2 h-4 w-full">
-          <div class="bg-star h-[24px]"></div>
-        </div>
-        <div class="text-india-red text-lg py-2">
-          We recommend booking air travel to Goa Dabolim International Airport.
-        </div>
-        <div class="text-india-red text-lg py-2">
-          Ground transportation between the airport and the hotel will be
-          provided for you.
-        </div>
-        <div class="text-india-red text-lg">
-          For full details, see
-          <a class="underline text-india-blue" href="./travel.html"
-            >the Travel page.</a
-          >
-        </div>
-      </div>
-    </div>
-    <div class="h-4"></div>
-    <div class="mx-8">
-      <div class="card font-kobe">
-        <div class="text-india-red india-shadow text-3xl">WHAT TO WEAR</div>
-        <div class="py-4 my-2 h-4 w-full">
-          <div class="bg-star h-[24px]"></div>
-        </div>
-        <div class="text-india-red text-lg py-2">
-          We recommend Indian wedding attire with an emphasis on cool clothing,
-          as it will be hot in Goa.
-        </div>
-        <div class="text-india-red text-lg py-2">
-          For the full breakdown of what to wear, see
-          <a class="underline text-india-blue" href="./attire.html"
-            >the Attire page.</a
-          >
-        </div>
-      </div>
-    </div>
-    <div class="h-8"></div>
   </body>
 </html>

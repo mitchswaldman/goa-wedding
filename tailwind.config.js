@@ -7,9 +7,10 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'india-red': 'rgb(224 0 0)',
+        'india-red': 'rgb(209 0 0)',
         'india-yellow': '#ffcc00',
         'india-blue': 'rgb(44 100 206)',
+        'india-green': 'rgb(25 75 45)',
       },
     },
     container: {

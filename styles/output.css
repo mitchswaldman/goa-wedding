@@ -599,8 +599,6 @@ video {
   padding-bottom: 2rem;
   padding-left: 1rem;
   padding-right: 1rem;
-  --tw-drop-shadow: drop-shadow(0 20px 13px rgb(0 0 0 / 0.03)) drop-shadow(0 8px 5px rgb(0 0 0 / 0.08));
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
 .btn-brutalist {
@@ -620,14 +618,14 @@ video {
   text-shadow: 1px 0px 0 white, 2px 1px 0 #ffcc00;
   border-width: 4px;
   --tw-border-opacity: 1;
-  border-color: rgb(224 0 0 / var(--tw-border-opacity, 1));
+  border-color: rgb(209 0 0 / var(--tw-border-opacity, 1));
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
   padding-left: 0.5rem;
   padding-right: 0.5rem;
   font-family: Kobe;
   --tw-text-opacity: 1;
-  color: rgb(224 0 0 / var(--tw-text-opacity, 1));
+  color: rgb(209 0 0 / var(--tw-text-opacity, 1));
 }
 
 .india-shadow {
@@ -667,7 +665,11 @@ video {
 }
 
 .bg-monstera {
-  background-image: url('../images/monstera.png');
+  background-image: url('../images/monstera_2.png');
+}
+
+.bg-100 {
+  background-size: 100% 100%;
 }
 
 .bg-paper {
@@ -741,24 +743,12 @@ video {
   right: 1.25rem;
 }
 
-.right-\[55\%\] {
-  right: 55%;
-}
-
 .top-0 {
   top: 0px;
 }
 
 .top-5 {
   top: 1.25rem;
-}
-
-.top-\[65\%\] {
-  top: 65%;
-}
-
-.-z-10 {
-  z-index: -10;
 }
 
 .-z-40 {
@@ -798,6 +788,10 @@ video {
 .my-2 {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
+}
+
+.-mt-32 {
+  margin-top: -8rem;
 }
 
 .block {
@@ -846,8 +840,8 @@ video {
   height: 2rem;
 }
 
-.h-\[24px\] {
-  height: 24px;
+.h-\[12rem\] {
+  height: 12rem;
 }
 
 .h-\[36px\] {
@@ -858,6 +852,14 @@ video {
   height: 100%;
 }
 
+.h-\[9rem\] {
+  height: 9rem;
+}
+
+.h-\[10rem\] {
+  height: 10rem;
+}
+
 .w-1\/2 {
   width: 50%;
 }
@@ -866,8 +868,20 @@ video {
   width: 36px;
 }
 
+.w-\[8rem\] {
+  width: 8rem;
+}
+
 .w-full {
   width: 100%;
+}
+
+.w-\[6rem\] {
+  width: 6rem;
+}
+
+.w-\[7rem\] {
+  width: 7rem;
 }
 
 .max-w-7xl {
@@ -891,6 +905,10 @@ video {
   align-items: flex-start;
 }
 
+.items-end {
+  align-items: flex-end;
+}
+
 .items-center {
   align-items: center;
 }
@@ -905,10 +923,6 @@ video {
 
 .justify-between {
   justify-content: space-between;
-}
-
-.justify-around {
-  justify-content: space-around;
 }
 
 .justify-evenly {
@@ -949,7 +963,7 @@ video {
 
 .border-india-red {
   --tw-border-opacity: 1;
-  border-color: rgb(224 0 0 / var(--tw-border-opacity, 1));
+  border-color: rgb(209 0 0 / var(--tw-border-opacity, 1));
 }
 
 .bg-gray-900 {
@@ -1006,6 +1020,11 @@ video {
   padding-right: 1rem;
 }
 
+.px-8 {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
 .py-1 {
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
@@ -1038,8 +1057,24 @@ video {
   padding-top: 4rem;
 }
 
+.pt-32 {
+  padding-top: 8rem;
+}
+
 .pt-8 {
   padding-top: 2rem;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
 }
 
 .font-india {
@@ -1064,6 +1099,11 @@ video {
   line-height: 2.25rem;
 }
 
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
 .text-5xl {
   font-size: 3rem;
   line-height: 1;
@@ -1077,6 +1117,10 @@ video {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.font-bold {
+  font-weight: 700;
 }
 
 .font-medium {
@@ -1098,9 +1142,14 @@ video {
   color: rgb(44 100 206 / var(--tw-text-opacity, 1));
 }
 
+.text-india-green {
+  --tw-text-opacity: 1;
+  color: rgb(25 75 45 / var(--tw-text-opacity, 1));
+}
+
 .text-india-red {
   --tw-text-opacity: 1;
-  color: rgb(224 0 0 / var(--tw-text-opacity, 1));
+  color: rgb(209 0 0 / var(--tw-text-opacity, 1));
 }
 
 .text-india-yellow {
@@ -1190,7 +1239,7 @@ video {
 
 .hover\:text-india-red:hover {
   --tw-text-opacity: 1;
-  color: rgb(224 0 0 / var(--tw-text-opacity, 1));
+  color: rgb(209 0 0 / var(--tw-text-opacity, 1));
 }
 
 .hover\:text-white:hover {
@@ -1203,11 +1252,6 @@ video {
 }
 
 @media (min-width: 640px) {
-  .sm\:mx-auto {
-    margin-left: auto;
-    margin-right: auto;
-  }
-
   .sm\:ml-6 {
     margin-left: 1.5rem;
   }

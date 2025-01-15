@@ -31,7 +31,7 @@
 
 @layer components {
   .card {
-    @apply drop-shadow-xl flex flex-col items-start py-8 px-4;
+    @apply flex flex-col items-start py-8 px-4;
   }
 
   .btn-brutalist {
@@ -87,7 +87,11 @@
   }
 
   .bg-monstera {
-    background-image: url('../images/monstera.png');
+    background-image: url('../images/monstera_2.png');
+  }
+
+  .bg-100 {
+    background-size: 100% 100%;
   }
 
   .bg-paper {
