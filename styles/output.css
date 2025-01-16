@@ -591,6 +591,42 @@ video {
   src: url('../fonts/Kobe-Regular.woff') format('woff');
 }
 
+.container {
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+@media (min-width: 1536px) {
+  .container {
+    max-width: 1536px;
+  }
+}
+
 .card {
   display: flex;
   flex-direction: column;
@@ -657,7 +693,7 @@ video {
 }
 
 .bg-paper-texture {
-  background-image: url('../images/paper.jpg');
+  background-image: url('../images/paper_2.jpg');
 }
 
 .bg-pothos {
@@ -840,8 +876,8 @@ video {
   height: 2rem;
 }
 
-.h-\[12rem\] {
-  height: 12rem;
+.h-\[10rem\] {
+  height: 10rem;
 }
 
 .h-\[36px\] {
@@ -852,44 +888,44 @@ video {
   height: 100%;
 }
 
-.h-\[9rem\] {
-  height: 9rem;
-}
-
-.h-\[10rem\] {
-  height: 10rem;
-}
-
 .w-1\/2 {
   width: 50%;
+}
+
+.w-4 {
+  width: 1rem;
 }
 
 .w-\[36px\] {
   width: 36px;
 }
 
-.w-\[8rem\] {
-  width: 8rem;
+.w-\[7rem\] {
+  width: 7rem;
 }
 
 .w-full {
   width: 100%;
 }
 
-.w-\[6rem\] {
-  width: 6rem;
-}
-
-.w-\[7rem\] {
-  width: 7rem;
-}
-
 .max-w-7xl {
   max-width: 80rem;
 }
 
+.max-w-\[400px\] {
+  max-width: 400px;
+}
+
 .flex-1 {
   flex: 1 1 0%;
+}
+
+.flex-none {
+  flex: none;
+}
+
+.flex-grow {
+  flex-grow: 1;
 }
 
 .-translate-x-80 {
@@ -1194,44 +1230,6 @@ video {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-@media (min-width: 640px) {
-  .sm\:container {
-    width: 100%;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-  @media (min-width: 640px) {
-    .sm\:container {
-      max-width: 640px;
-    }
-  }
-
-  @media (min-width: 768px) {
-    .sm\:container {
-      max-width: 768px;
-    }
-  }
-
-  @media (min-width: 1024px) {
-    .sm\:container {
-      max-width: 1024px;
-    }
-  }
-
-  @media (min-width: 1280px) {
-    .sm\:container {
-      max-width: 1280px;
-    }
-  }
-
-  @media (min-width: 1536px) {
-    .sm\:container {
-      max-width: 1536px;
-    }
-  }
-}
-
 .hover\:bg-gray-700:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(55 65 81 / var(--tw-bg-opacity, 1));
@@ -1262,10 +1260,6 @@ video {
 
   .sm\:hidden {
     display: none;
-  }
-
-  .sm\:max-w-\[400px\] {
-    max-width: 400px;
   }
 
   .sm\:items-stretch {

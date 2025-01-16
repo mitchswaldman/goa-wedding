@@ -78,10 +78,8 @@
       </div>
       <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8" id="desktop-menu">
         <div class="relative flex h-16 items-center justify-between">
-          <div
-            class="flex flex-1 items-center justify-end sm:justify-between sm:items-stretch"
-          >
-            <div class="hidden sm:ml-6 sm:block">
+          <div class="flex flex-1 items-center justify-end">
+            <div class="hidden sm:ml-6">
               <div class="flex space-x-4 text-white">
                 <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
                 <a
@@ -174,38 +172,44 @@
     <div class="h-16"></div>
     <!-- ### INVITE CARD SECTION -->
     <!-- set a default spacer to render the card in -->
-    <div class="mx-8 sm:container font-india india-shadow">
-      <div class="card bg-paper-texture items-center relative sm:max-w-[400px]">
+    <div class="container font-india india-shadow">
+      <div class="flex">
+        <div class="w-4 flex-none"></div>
         <div
-          class="absolute top-0 bottom-[50%] left-[64%] right-0 bg-pothos bg-contain bg-no-repeat"
-        ></div>
-
-        <div
-          class="absolute top-5 bottom-5 left-5 right-5 border-india-red border-4"
+          class="card flex-grow bg-paper-texture bg-cover items-center relative max-w-[400px] mx-auto"
         >
           <div
-            class="absolute bottom-0 left-0 bg-monstera bg-100 bg-no-repeat w-[7rem] h-[10rem]"
+            class="absolute top-0 bottom-[50%] left-[64%] right-0 bg-pothos bg-contain bg-no-repeat"
           ></div>
+
+          <div
+            class="absolute top-5 bottom-5 left-5 right-5 border-india-red border-4"
+          >
+            <div
+              class="absolute bottom-0 left-0 bg-monstera bg-100 bg-no-repeat w-[7rem] h-[10rem]"
+            ></div>
+          </div>
+          <div class="text-india-red text-5xl py-2 pt-8">MITCH</div>
+          <div class="text-india-red text-5xl py-2">&</div>
+          <div class="text-india-red text-5xl py-2">ALYA</div>
+          <div class="py-8 h-4 w-full flex justify-evenly">
+            <div class="bg-star h-[36px] w-[36px] bg-[size:36px]"></div>
+            <div class="bg-star h-[36px] w-[36px] bg-[size:36px]"></div>
+            <div class="bg-star h-[36px] w-[36px] bg-[size:36px]"></div>
+          </div>
+          <div class="text-india-red text-3xl py-2">NOV 25 - 26, 2025</div>
+          <div class="text-india-red text-3xl py-2">BELEZA BY THE BEACH</div>
+          <div class="text-india-red text-3xl py-2">GOA, INDIA</div>
+          <div class="py-8 self-center">
+            <button class="btn-brutalist text-2xl px-4 py-1">RSVP</button>
+          </div>
         </div>
-        <div class="text-india-red text-5xl py-2 pt-8">MITCH</div>
-        <div class="text-india-red text-5xl py-2">&</div>
-        <div class="text-india-red text-5xl py-2">ALYA</div>
-        <div class="py-8 h-4 w-full flex justify-evenly">
-          <div class="bg-star h-[36px] w-[36px] bg-[size:36px]"></div>
-          <div class="bg-star h-[36px] w-[36px] bg-[size:36px]"></div>
-          <div class="bg-star h-[36px] w-[36px] bg-[size:36px]"></div>
-        </div>
-        <div class="text-india-red text-3xl py-2">NOV 25 - 26, 2025</div>
-        <div class="text-india-red text-3xl py-2">BELEZA BY THE BEACH</div>
-        <div class="text-india-red text-3xl py-2">GOA, INDIA</div>
-        <div class="py-8 self-center">
-          <button class="btn-brutalist text-2xl px-4 py-1">RSVP</button>
-        </div>
+        <div class="w-4 flex-none"></div>
       </div>
     </div>
     <div class="h-4 relative"></div>
-    <div class="font-kobe px-8 -mt-32 pt-32 pt bg-paper-texture">
-      <div class="card hind-mysuru-regular">
+    <div class="font-kobe px-8 -mt-32 pt-32 bg-cover bg-paper-texture">
+      <div class="card hind-mysuru-regular max-w-[400px] mx-auto">
         <div class="flex flex-col items-start">
           <div
             class="font-kobe text-india-red text-4xl text-center font-bold india-shadow"
