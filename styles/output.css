@@ -689,7 +689,7 @@ video {
 }
 
 .bg-paper-texture {
-  background-image: url('../images/paper_2.jpg');
+  background-image: url('../images/paper_2_flipped.png');
   background-size: 750px 500px;
 }
 
@@ -995,8 +995,8 @@ video {
   width: 100%;
 }
 
-.min-w-\[400px\] {
-  min-width: 400px;
+.min-w-\[300px\] {
+  min-width: 300px;
 }
 
 .max-w-7xl {

@@ -79,7 +79,7 @@
   }
 
   .bg-paper-texture {
-    background-image: url('../images/paper_2.jpg');
+    background-image: url('../images/paper_2_flipped.png');
     background-size: 750px 500px;
   }
 
