@@ -2,18 +2,26 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hind+Mysuru:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles/main.css" />
     <!-- <link rel="stylesheet" href="styles/nav.css" /> -->
     <link rel="stylesheet" href="styles/output.css" />
     <script type="text/javascript" src="src/index.js"></script>
   </head>
-  <body>
+  <body class="min-w-[400px]">
     <div class="fixed top-0 left-0 w-full h-full -z-40" id="background"></div>
     <nav class="fixed w-full font-india z-30">
       <div
         class="bg-gradient-to-b from-gray-800 opacity-90 absolute w-full h-16 top-0 left-0"
       ></div>
-      <div class="absolute inset-y-0 left-0 flex items-center sm:hidden z-10">
+      <div
+        class="absolute inset-y-0 left-0 flex items-center sm:hidden z-10 hidden"
+      >
         <!-- Mobile menu button-->
         <button
           type="button"
@@ -70,10 +78,8 @@
       </div>
       <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8" id="desktop-menu">
         <div class="relative flex h-16 items-center justify-between">
-          <div
-            class="flex flex-1 items-center justify-end sm:justify-between sm:items-stretch"
-          >
-            <div class="hidden sm:ml-6 sm:block">
+          <div class="flex flex-1 items-center justify-end">
+            <div class="hidden sm:ml-6">
               <div class="flex space-x-4 text-white">
                 <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
                 <a
@@ -111,7 +117,7 @@
               </div>
             </div>
             <div
-              class="px-3 py-2 text-lg text-india-yellow sm:block self-end justify-self-end"
+              class="font-kobe px-3 py-2 text-lg text-india-yellow sm:block self-end justify-self-end"
             >
               MITCH & ALYA
             </div>
@@ -162,19 +168,79 @@
       </div>
     </div>
     <!-- #### BEGIN PAGE CONTENT #### -->
-    <div class="mx-full bg-paper">
-      <div
-        class="relative mx-auto h-64 font-kobe text-india-red india-shadow text-5xl flex items-center justify-center"
-      >
+    <!-- ## SPACER -->
+    <div class="h-16"></div>
+    <!-- ### INVITE CARD SECTION -->
+    <!-- set a default spacer to render the card in -->
+    <div class="container font-india india-shadow">
+      <div class="flex">
+        <div class="w-4 flex-none"></div>
         <div
-          class="z-0 absolute top-0 left-0 h-full w-full bg-airindia-events bg-cover bg-center bg-no-repeat"
-        ></div>
-        <div class="z-10 page-title">Events</div>
+          class="card flex-grow bg-paper-texture items-center relative max-w-[400px] mx-auto"
+        >
+          <div
+            class="absolute top-0 bottom-[50%] left-[64%] right-0 bg-pothos bg-contain bg-no-repeat"
+          ></div>
+
+          <div
+            class="absolute top-5 bottom-5 left-5 right-5 border-india-red border-4"
+          >
+            <div
+              class="absolute bottom-0 left-0 bg-monstera bg-100 bg-no-repeat w-[7rem] h-[10rem]"
+            ></div>
+          </div>
+          <div class="text-india-red text-5xl py-2 pt-8">SCHEDULE</div>
+          <div class="text-india-red text-5xl py-2">OF</div>
+          <div class="text-india-red text-5xl py-2">EVENTS</div>
+          <div class="py-8 h-4 w-full flex justify-evenly">
+            <div class="bg-star h-[36px] w-[36px] bg-[size:36px]"></div>
+            <div class="bg-star h-[36px] w-[36px] bg-[size:36px]"></div>
+            <div class="bg-star h-[36px] w-[36px] bg-[size:36px]"></div>
+          </div>
+        </div>
+        <div class="w-4 flex-none"></div>
       </div>
-      <div class="h-full">
-        <div class="m-4">
-          <div class="flex flex-col items-center">
-            <div class="font-india text-india-red text-3xl">Coming soon...</div>
+    </div>
+    <div class="h-4 relative"></div>
+    <div
+      class="font-kobe text-india-red px-8 -mt-32 pt-32 bg-paper-texture pb-16"
+    >
+      <div class="timeline">
+        <div class="timeline-entry timeline-left">
+          <div class="timeline-entry-content">
+            <div class="text-3xl font-bold">Tuesday, Nov 25</div>
+          </div>
+        </div>
+        <div class="timeline-entry timeline-right">
+          <div class="timeline-entry-content">
+            <div class="text-3xl">Welcome lunch & Guest arrival</div>
+            <div class="text-2xl">12 PM - 2 PM</div>
+            <div class="text-xl">Attire: Casual</div>
+            <div class="text-xl">Dance level: 💃🏾</div>
+            <div class="text-xl pt-2">
+              We look forward to welcoming you at the hotel. After checking in
+              to your room, come enjoy a hearty meal after making the trek to
+              Goa.
+            </div>
+          </div>
+        </div>
+        <div class="timeline-entry timeline-empty timeline-right">
+          <div class="timeline-entry-content h-16">
+            <div class="h-4"></div>
+            <div class="text-xl">Enjoy the hotel!</div>
+          </div>
+        </div>
+        <div class="timeline-entry timeline-right">
+          <div class="timeline-entry-content">
+            <div class="text-3xl">Sangeet</div>
+            <div class="text-2xl">6PM - 10PM</div>
+            <div class="text-xl">Attire: Formal</div>
+            <div class="text-xl">Dance level: 💃🏾💃🏾💃🏾💃🏾💃🏾</div>
+            <div class="text-xl py-4">
+              The sangeet is traditionally a dance party. There will be dance
+              performances from various groups, lots of Kingfisher, and plenty
+              of Goan seafood.
+            </div>
           </div>
         </div>
       </div>
