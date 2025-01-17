@@ -36,6 +36,13 @@
 
   .btn-brutalist {
     @apply border-india-blue border-4 px-2 py-1 text-india-blue font-india;
+    transition: all 0.3s ease;
+  }
+
+  .btn-brutalist:hover,
+  .btn-brutalist:active {
+    @apply text-white border-white;
+    transition: all 0.3s ease;
   }
 
   .page-title {
@@ -130,6 +137,10 @@
     top: 20px;
     bottom: -20px;
     left: calc(var(--timeline-width) / 2 * -1);
+  }
+
+  .timeline-entry-end::before {
+    border: none;
   }
 
   .timeline-entry:last-child::before {

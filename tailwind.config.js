@@ -10,7 +10,8 @@ module.exports = {
         'india-red': 'rgb(209 0 0)',
         'india-yellow': '#ffcc00',
         'india-blue': 'rgb(44 100 206)',
-        'india-green': 'rgb(25 75 45)',
+        'india-green': 'rgb(6 87 2);',
+        'india-black': 'rgb(72 71 71)',
       },
     },
     container: {
