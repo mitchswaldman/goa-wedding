@@ -37,6 +37,7 @@
   .btn-brutalist {
     @apply border-india-blue border-4 px-2 py-1 text-india-blue font-india;
     transition: all 0.3s ease;
+    text-decoration: underline;
   }
 
   .btn-brutalist:hover,
@@ -53,36 +54,12 @@
     text-shadow: 1px 0px 0 white, 2px 1px 0 theme(colors.india-yellow);
   }
 
-  .india-shadow-lg {
-    text-shadow: 3px 2px 0 white, 6px 3px 0 theme(colors.india-yellow);
-  }
-
-  .bg-goa {
-    background-image: url('../images/goa_beach_watercolor.jpeg');
+  .india-shadow-none {
+    text-shadow: none;
   }
 
   .bg-star {
     background-image: url('../images/bullet_point_2.png');
-  }
-
-  .bg-airindia {
-    background-image: url('../images/air_india_india.webp');
-  }
-
-  .bg-airindia-events {
-    background-image: url('../images/air_india_events.webp');
-  }
-
-  .bg-airindia-travel {
-    background-image: url('../images/air_india_travel.jpg');
-  }
-
-  .bg-airindia-faq {
-    background-image: url('../images/air_india_faq.jpg');
-  }
-
-  .bg-beleza {
-    background-image: url('../images/beleza.jpg');
   }
 
   .bg-paper-texture {
