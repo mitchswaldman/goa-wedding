@@ -665,14 +665,14 @@ video {
   text-shadow: 1px 0px 0 white, 2px 1px 0 #ffcc00;
   border-width: 4px;
   --tw-border-opacity: 1;
-  border-color: rgb(209 0 0 / var(--tw-border-opacity, 1));
+  border-color: rgb(195 0 0 / var(--tw-border-opacity, 1));
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
   padding-left: 0.5rem;
   padding-right: 0.5rem;
   font-family: Kobe;
   --tw-text-opacity: 1;
-  color: rgb(209 0 0 / var(--tw-text-opacity, 1));
+  color: rgb(195 0 0 / var(--tw-text-opacity, 1));
 }
 
 .india-shadow {
@@ -990,16 +990,16 @@ video {
   width: 36px;
 }
 
+.w-\[400px\] {
+  width: 400px;
+}
+
 .w-\[7rem\] {
   width: 7rem;
 }
 
 .w-full {
   width: 100%;
-}
-
-.w-\[400px\] {
-  width: 400px;
 }
 
 .min-w-\[300px\] {
@@ -1097,7 +1097,7 @@ video {
 
 .border-india-red {
   --tw-border-opacity: 1;
-  border-color: rgb(209 0 0 / var(--tw-border-opacity, 1));
+  border-color: rgb(195 0 0 / var(--tw-border-opacity, 1));
 }
 
 .bg-gray-900 {
@@ -1164,6 +1164,11 @@ video {
   padding-bottom: 0.25rem;
 }
 
+.py-16 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
 .py-2 {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
@@ -1177,11 +1182,6 @@ video {
 .py-8 {
   padding-top: 2rem;
   padding-bottom: 2rem;
-}
-
-.py-16 {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
 }
 
 .pb-16 {
@@ -1304,7 +1304,7 @@ video {
 
 .text-india-red {
   --tw-text-opacity: 1;
-  color: rgb(209 0 0 / var(--tw-text-opacity, 1));
+  color: rgb(195 0 0 / var(--tw-text-opacity, 1));
 }
 
 .text-india-yellow {
@@ -1362,7 +1362,7 @@ video {
 
 .hover\:text-india-red:hover {
   --tw-text-opacity: 1;
-  color: rgb(209 0 0 / var(--tw-text-opacity, 1));
+  color: rgb(195 0 0 / var(--tw-text-opacity, 1));
 }
 
 .hover\:text-white:hover {
@@ -1375,26 +1375,6 @@ video {
 }
 
 @media (min-width: 640px) {
-  .sm\:mx-auto {
-    margin-left: auto;
-    margin-right: auto;
-  }
-
-  .sm\:mx-12 {
-    margin-left: 3rem;
-    margin-right: 3rem;
-  }
-
-  .sm\:mx-4 {
-    margin-left: 1rem;
-    margin-right: 1rem;
-  }
-
-  .sm\:mx-8 {
-    margin-left: 2rem;
-    margin-right: 2rem;
-  }
-
   .sm\:ml-6 {
     margin-left: 1.5rem;
   }
