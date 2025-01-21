@@ -740,8 +740,8 @@ video {
 .timeline-entry::before {
   content: '';
   position: absolute;
-  border-right: calc(var(--timeline-width) / 2) solid var(--india-red);
-  border-left: calc(var(--timeline-width) / 2) solid var(--india-red);
+  border-right: calc(var(--timeline-width) / 2) solid var(--india-orange);
+  border-left: calc(var(--timeline-width) / 2) solid var(--india-orange);
   top: 20px;
   bottom: -20px;
   left: calc(var(--timeline-width) / 2 * -1);
@@ -780,8 +780,8 @@ video {
   width: var(--timeline-dot-diameter);
   height: var(--timeline-dot-diameter);
   left: var(--timeline-dot-adjustment);
-  background-color: var(--india-red);
-  border: 4px solid var(--india-red);
+  background-color: var(--india-orange);
+  border: 4px solid var(--india-orange);
   top: 15px;
   border-radius: 50%;
   z-index: 1;
@@ -871,6 +871,10 @@ video {
 
 .top-5 {
   top: 1.25rem;
+}
+
+.right-0 {
+  right: 0px;
 }
 
 .-z-40 {
@@ -978,32 +982,16 @@ video {
   height: 36px;
 }
 
-.h-\[50px\] {
-  height: 50px;
-}
-
-.h-\[600\] {
-  height: 600;
+.h-\[60px\] {
+  height: 60px;
 }
 
 .h-full {
   height: 100%;
 }
 
-.h-\[60px\] {
-  height: 60px;
-}
-
-.max-h-\[600\] {
-  max-height: 600;
-}
-
 .max-h-\[600px\] {
   max-height: 600px;
-}
-
-.min-h-\[550\] {
-  min-height: 550;
 }
 
 .min-h-\[550px\] {
@@ -1018,8 +1006,8 @@ video {
   width: 1rem;
 }
 
-.w-\[100px\] {
-  width: 100px;
+.w-\[125px\] {
+  width: 125px;
 }
 
 .w-\[36px\] {
@@ -1040,10 +1028,6 @@ video {
 
 .w-full {
   width: 100%;
-}
-
-.w-\[125px\] {
-  width: 125px;
 }
 
 .min-w-\[300px\] {
@@ -1156,11 +1140,6 @@ video {
   border-color: rgb(59 120 82 / var(--tw-border-opacity, 1));
 }
 
-.border-india-red {
-  --tw-border-opacity: 1;
-  border-color: rgb(195 0 0 / var(--tw-border-opacity, 1));
-}
-
 .bg-gray-900 {
   --tw-bg-opacity: 1;
   background-color: rgb(17 24 39 / var(--tw-bg-opacity, 1));
@@ -1190,6 +1169,10 @@ video {
 
 .bg-center {
   background-position: center;
+}
+
+.bg-top {
+  background-position: top;
 }
 
 .bg-no-repeat {
@@ -1432,6 +1415,11 @@ video {
   background-color: rgb(55 65 81 / var(--tw-bg-opacity, 1));
 }
 
+.hover\:text-india-orange:hover {
+  --tw-text-opacity: 1;
+  color: rgb(230 153 42 / var(--tw-text-opacity, 1));
+}
+
 .hover\:text-india-red:hover {
   --tw-text-opacity: 1;
   color: rgb(195 0 0 / var(--tw-text-opacity, 1));
@@ -1440,6 +1428,11 @@ video {
 .hover\:text-white:hover {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity, 1));
+}
+
+.hover\:text-india-green:hover {
+  --tw-text-opacity: 1;
+  color: rgb(59 120 82 / var(--tw-text-opacity, 1));
 }
 
 .hover\:underline:hover {

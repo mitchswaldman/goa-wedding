@@ -121,8 +121,8 @@
   .timeline-entry::before {
     content: '';
     position: absolute;
-    border-right: calc(var(--timeline-width) / 2) solid var(--india-red);
-    border-left: calc(var(--timeline-width) / 2) solid var(--india-red);
+    border-right: calc(var(--timeline-width) / 2) solid var(--india-orange);
+    border-left: calc(var(--timeline-width) / 2) solid var(--india-orange);
     top: 20px;
     bottom: -20px;
     left: calc(var(--timeline-width) / 2 * -1);
@@ -156,8 +156,8 @@
     width: var(--timeline-dot-diameter);
     height: var(--timeline-dot-diameter);
     left: var(--timeline-dot-adjustment);
-    background-color: var(--india-red);
-    border: 4px solid var(--india-red);
+    background-color: var(--india-orange);
+    border: 4px solid var(--india-orange);
     top: 15px;
     border-radius: 50%;
     z-index: 1;

@@ -146,6 +146,7 @@ li:before {
 
   /* timeline */
   --india-red: rgb(209 0 0);
+  --india-orange: rgb(230, 153, 42);
   --timeline-width: 2px;
   --timeline-dot-diameter: 16px;
   --timeline-dot-adjustment: calc(
