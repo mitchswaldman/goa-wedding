@@ -93,6 +93,10 @@
     background-image: url('../images/template.jpeg');
   }
 
+  .bg-dancer {
+    background-image: url('../images/lehenga_dancer.png');
+  }
+
   .bg-invite-card {
     background-image: url('../images/invite_card.png');
   }
