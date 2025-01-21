@@ -706,6 +706,10 @@ video {
   background-image: url('../images/invite_card.png');
 }
 
+.items-self-start {
+  align-items: self-start;
+}
+
 /* timeline */
 
 .timeline {
@@ -958,6 +962,14 @@ video {
   height: 2rem;
 }
 
+.h-\[16px\] {
+  height: 16px;
+}
+
+.h-\[24px\] {
+  height: 24px;
+}
+
 .h-\[36px\] {
   height: 36px;
 }
@@ -968,18 +980,6 @@ video {
 
 .h-full {
   height: 100%;
-}
-
-.h-\[16px\] {
-  height: 16px;
-}
-
-.h-\[32px\] {
-  height: 32px;
-}
-
-.h-\[24px\] {
-  height: 24px;
 }
 
 .max-h-\[600px\] {
@@ -1002,6 +1002,14 @@ video {
   width: 125px;
 }
 
+.w-\[16px\] {
+  width: 16px;
+}
+
+.w-\[20px\] {
+  width: 20px;
+}
+
 .w-\[36px\] {
   width: 36px;
 }
@@ -1012,26 +1020,6 @@ video {
 
 .w-full {
   width: 100%;
-}
-
-.w-\[16px\] {
-  width: 16px;
-}
-
-.w-\[24px\] {
-  width: 24px;
-}
-
-.w-\[12px\] {
-  width: 12px;
-}
-
-.w-\[20px\] {
-  width: 20px;
-}
-
-.w-\[32px\] {
-  width: 32px;
 }
 
 .min-w-\[300px\] {
@@ -1331,10 +1319,6 @@ video {
   font-weight: 500;
 }
 
-.leading-none {
-  line-height: 1;
-}
-
 .text-black {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity, 1));
@@ -1421,11 +1405,6 @@ video {
 .hover\:bg-gray-700:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(55 65 81 / var(--tw-bg-opacity, 1));
-}
-
-.hover\:text-india-orange:hover {
-  --tw-text-opacity: 1;
-  color: rgb(230 153 42 / var(--tw-text-opacity, 1));
 }
 
 .hover\:text-india-red:hover {

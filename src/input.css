@@ -101,6 +101,10 @@
     background-image: url('../images/invite_card.png');
   }
 
+  .items-self-start {
+    align-items: self-start;
+  }
+
   /* timeline */
   .timeline {
     position: relative;
