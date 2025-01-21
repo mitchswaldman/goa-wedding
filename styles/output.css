@@ -640,14 +640,14 @@ video {
 .btn-brutalist {
   border-width: 4px;
   --tw-border-opacity: 1;
-  border-color: rgb(44 100 206 / var(--tw-border-opacity, 1));
+  border-color: rgb(59 120 82 / var(--tw-border-opacity, 1));
   padding-left: 0.5rem;
   padding-right: 0.5rem;
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
   font-family: EphemeraEgyptian;
   --tw-text-opacity: 1;
-  color: rgb(44 100 206 / var(--tw-text-opacity, 1));
+  color: rgb(59 120 82 / var(--tw-text-opacity, 1));
   transition: all 0.3s ease;
   text-decoration: underline;
 }
@@ -662,7 +662,7 @@ video {
 }
 
 .page-title {
-  text-shadow: 1px 0px 0 white, 2px 1px 0 #ffcc00;
+  text-shadow: 2px 1px 0 rgb(59 120 82);
   border-width: 4px;
   --tw-border-opacity: 1;
   border-color: rgb(195 0 0 / var(--tw-border-opacity, 1));
@@ -676,11 +676,15 @@ video {
 }
 
 .india-shadow {
-  text-shadow: 1px 0px 0 white, 2px 1px 0 #ffcc00;
+  text-shadow: 2px 1px 0 rgb(59 120 82);
 }
 
 .bg-star {
   background-image: url('../images/bullet_point_2.png');
+}
+
+.bg-leaf-divider {
+  background-image: url('../images/leaf_divider.png');
 }
 
 .bg-paper-texture {
@@ -974,12 +978,36 @@ video {
   height: 36px;
 }
 
-.h-\[500px\] {
-  height: 500px;
+.h-\[50px\] {
+  height: 50px;
+}
+
+.h-\[600\] {
+  height: 600;
 }
 
 .h-full {
   height: 100%;
+}
+
+.h-\[60px\] {
+  height: 60px;
+}
+
+.max-h-\[600\] {
+  max-height: 600;
+}
+
+.max-h-\[600px\] {
+  max-height: 600px;
+}
+
+.min-h-\[550\] {
+  min-height: 550;
+}
+
+.min-h-\[550px\] {
+  min-height: 550px;
 }
 
 .w-1\/2 {
@@ -988,6 +1016,10 @@ video {
 
 .w-4 {
   width: 1rem;
+}
+
+.w-\[100px\] {
+  width: 100px;
 }
 
 .w-\[36px\] {
@@ -1010,8 +1042,16 @@ video {
   width: 100%;
 }
 
+.w-\[125px\] {
+  width: 125px;
+}
+
 .min-w-\[300px\] {
   min-width: 300px;
+}
+
+.min-w-\[350px\] {
+  min-width: 350px;
 }
 
 .max-w-7xl {
@@ -1020,6 +1060,10 @@ video {
 
 .max-w-\[400px\] {
   max-width: 400px;
+}
+
+.max-w-\[500px\] {
+  max-width: 500px;
 }
 
 .flex-1 {
@@ -1154,6 +1198,11 @@ video {
 
 .p-2 {
   padding: 0.5rem;
+}
+
+.px-12 {
+  padding-left: 3rem;
+  padding-right: 3rem;
 }
 
 .px-2 {
@@ -1312,7 +1361,12 @@ video {
 
 .text-india-blue {
   --tw-text-opacity: 1;
-  color: rgb(44 100 206 / var(--tw-text-opacity, 1));
+  color: rgb(172 209 217 / var(--tw-text-opacity, 1));
+}
+
+.text-india-green {
+  --tw-text-opacity: 1;
+  color: rgb(59 120 82 / var(--tw-text-opacity, 1));
 }
 
 .text-india-orange {

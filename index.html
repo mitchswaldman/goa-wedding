@@ -79,7 +79,7 @@
         <!-- Mobile menu button-->
         <button
           type="button"
-          class="relative inline-flex items-center justify-center rounded-md p-2 text-india-yellow hover:text-india-red"
+          class="relative inline-flex items-center justify-center rounded-md p-2 text-india-yellow hover:text"
           aria-controls="mobile-menu"
           aria-expanded="false"
           id="mobile-navbar-btn"
@@ -171,7 +171,7 @@
               </div>
             </div>
             <div
-              class="font-kobe px-3 py-2 text-lg text-india-yellow sm:block self-end justify-self-end"
+              class="font-kobe px-3 py-2 text-lg text-india-orange sm:block self-end justify-self-end"
             >
               <a href="./index.html">MITCH & ALYA</a>
             </div>
@@ -190,33 +190,33 @@
         <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
         <a
           href="./index.html"
-          class="block rounded-md px-3 py-2 text-lg font-medium text-india-red india-shadow font-india"
+          class="block rounded-md px-3 py-2 text-lg font-medium text-india-green india-shadow"
           aria-current="page"
           >Home</a
         >
         <a
           href="./travel.html"
-          class="block rounded-md px-3 py-2 text-lg font-medium text-india-red india-shadow font-india"
+          class="block rounded-md px-3 py-2 text-lg font-medium text-india-green india-shadow"
           >Travel</a
         >
         <a
           href="./venue.html"
-          class="block rounded-md px-3 py-2 text-lg font-medium text-india-red india-shadow font-india"
+          class="block rounded-md px-3 py-2 text-lg font-medium text-india-green india-shadow"
           >Venue</a
         >
         <a
           href="./events.html"
-          class="block rounded-md px-3 py-2 text-lg font-medium text-india-red india-shadow font-india"
+          class="block rounded-md px-3 py-2 text-lg font-medium text-india-green india-shadow"
           >Events</a
         >
         <a
           href="./attire.html"
-          class="block rounded-md px-3 py-2 text-lg font-medium text-india-red india-shadow font-india"
+          class="block rounded-md px-3 py-2 text-lg font-medium text-india-green india-shadow"
           >Attire</a
         >
         <a
           href="./faq.html"
-          class="block rounded-md px-3 py-2 text-lg font-medium text-india-red india-shadow font-india"
+          class="block rounded-md px-3 py-2 text-lg font-medium text-india-green india-shadow"
           >FAQ</a
         >
       </div>
@@ -228,14 +228,15 @@
     <!-- set a default spacer to render the card in -->
     <div class="container font-kobe font-bold">
       <div class="flex">
-        <div class="w-4 flex-none"></div>
         <div
-          class="card flex-grow bg-paper-texture items-center relative max-w-[400px] mx-auto"
+          class="flex flex-col py-8 px-4 flex-grow bg-paper-texture items-center relative max-w-[500px] mx-auto"
         >
           <div
-            class="absolute top-5 bottom-5 left-5 right-5 border-india-green bg-invite-card bg-cover border-4"
+            class="absolute max-h-[600px] min-h-[550px] min-w-[350px] max-w-[400px] border-india-green bg-invite-card bg-cover border-4"
           ></div>
-          <div class="z-10 flex flex-col px-8 h-[500px] w-[400px]">
+          <div
+            class="z-10 flex flex-col px-8 max-h-[600px] min-h-[550px] min-w-[350px] max-w-[400px]"
+          >
             <div class="self-start">
               <div class="text-india-orange text-5xl pt-16">MITCH & ALYA</div>
             </div>
@@ -247,73 +248,83 @@
             </div>
           </div>
         </div>
-        <div class="w-4 flex-none"></div>
       </div>
     </div>
-    <div class="h-16 relative"></div>
-    <div class="font-kobe px-8 -mt-32 pt-32 bg-paper-texture">
-      <div class="card hind-mysuru-regular max-w-[400px] mx-auto">
-        <div class="flex flex-col items-start">
-          <div
-            class="font-kobe text-india-red text-4xl text-center font-bold india-shadow"
-          >
-            WHEN
-          </div>
-          <div class="py-4 text-left">
-            <div class="text-india-black text-2xl">Tuesday, November 25 -</div>
-            <div class="text-india-black text-2xl">Wednesday, November 26,</div>
-            <div class="text-india-black text-2xl">2025</div>
-          </div>
-        </div>
-
-        <div class="py-4">
-          <div class="text-india-black text-xl">
-            Hotel check-in: Nov 25, 2PM
-          </div>
-          <div class="text-india-black text-xl">
-            Hotel check-out: Nov 27, 11AM
-          </div>
-        </div>
-
-        <!-- <div class="py-4"></div> -->
-        <div class="pt-12 pb-16 w-full flex items-center justify-center">
-          <div class="">
-            <a href="./events.html" class="btn-brutalist text-2xl px-4 py-1">
-              VIEW EVENT SCHEDULE
-            </a>
-          </div>
-        </div>
-
-        <div class="flex flex-col items-end text-right">
-          <div class="font-kobe text-india-red text-4xl font-bold india-shadow">
-            WHERE
-          </div>
-          <div class="py-4">
-            <div class="text-india-black text-2xl">Beleza by the Beach</div>
-            <div class="text-india-black text-2xl">Goa, India</div>
-          </div>
-          <div class="py-4">
-            <div class="text-india-black text-xl">
-              Located 20 km south of the Goa Dabolim International Airport
+    <div class="container font-kobe">
+      <div class="flex">
+        <div
+          class="flex flex-col items-start py-8 px-12 hind-mysuru-regular max-w-[500px] mx-auto bg-paper-texture"
+        >
+          <div class="flex flex-col items-start">
+            <div
+              class="font-kobe text-india-orange text-4xl text-center font-bold india-shadow"
+            >
+              WHEN
+            </div>
+            <div class="py-4 text-left">
+              <div class="text-india-black text-2xl">
+                Tuesday, November 25 -
+              </div>
+              <div class="text-india-black text-2xl">
+                Wednesday, November 26,
+              </div>
+              <div class="text-india-black text-2xl">2025</div>
             </div>
           </div>
-        </div>
 
-        <div class="py-8 h-4 w-full flex justify-evenly">
-          <div class="bg-star h-[36px] w-[36px] bg-[size:36px]"></div>
-          <div class="bg-star h-[36px] w-[36px] bg-[size:36px]"></div>
-          <div class="bg-star h-[36px] w-[36px] bg-[size:36px]"></div>
-        </div>
-        <div class="flex flex-col items-center self-center py-4">
-          <a
-            class="btn-brutalist text-2xl px-4 py-1"
-            target="_blank"
-            href="https://withjoy.com/mitch-and-alya/rsvp"
-            >RSVP</a
-          >
-          <div class="py-4"></div>
-          <div class="text-india-black text-xl">Please RSVP by March 31</div>
-          <div class="text-india-black text-xl">More details coming soon!</div>
+          <div class="py-4">
+            <div class="text-india-black text-xl">
+              Hotel check-in: Nov 25, 2PM
+            </div>
+            <div class="text-india-black text-xl">
+              Hotel check-out: Nov 27, 11AM
+            </div>
+          </div>
+
+          <!-- <div class="py-4"></div> -->
+          <div class="pt-12 pb-16 w-full flex items-center justify-center">
+            <div class="">
+              <a href="./events.html" class="btn-brutalist text-2xl px-4 py-1">
+                VIEW EVENT SCHEDULE
+              </a>
+            </div>
+          </div>
+
+          <div class="flex flex-col items-end text-right">
+            <div
+              class="font-kobe text-india-orange india-shadow text-4xl font-bold"
+            >
+              WHERE
+            </div>
+            <div class="py-4">
+              <div class="text-india-black text-2xl">Beleza by the Beach</div>
+              <div class="text-india-black text-2xl">Goa, India</div>
+            </div>
+            <div class="py-4">
+              <div class="text-india-black text-xl">
+                Located 20 km south of the Goa Dabolim International Airport
+              </div>
+            </div>
+          </div>
+
+          <div class="py-8 h-4 w-full flex justify-evenly">
+            <div
+              class="bg-leaf-divider bg-contain w-[125px] h-[60px] bg-no-repeat"
+            ></div>
+          </div>
+          <div class="flex flex-col items-center self-center py-4">
+            <a
+              class="btn-brutalist text-2xl px-4 py-1"
+              target="_blank"
+              href="https://withjoy.com/mitch-and-alya/rsvp"
+              >RSVP</a
+            >
+            <div class="py-4"></div>
+            <div class="text-india-black text-xl">Please RSVP by March 31</div>
+            <div class="text-india-black text-xl">
+              More details coming soon!
+            </div>
+          </div>
         </div>
       </div>
     </div>

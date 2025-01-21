@@ -35,7 +35,7 @@
   }
 
   .btn-brutalist {
-    @apply border-india-blue border-4 px-2 py-1 text-india-blue font-india;
+    @apply border-india-green border-4 px-2 py-1 text-india-green font-india;
     transition: all 0.3s ease;
     text-decoration: underline;
   }
@@ -51,7 +51,7 @@
   }
 
   .india-shadow {
-    text-shadow: 1px 0px 0 white, 2px 1px 0 theme(colors.india-yellow);
+    text-shadow: 2px 1px 0 theme(colors.india-green);
   }
 
   .india-shadow-none {
@@ -60,6 +60,10 @@
 
   .bg-star {
     background-image: url('../images/bullet_point_2.png');
+  }
+
+  .bg-leaf-divider {
+    background-image: url('../images/leaf_divider.png');
   }
 
   .bg-paper-texture {

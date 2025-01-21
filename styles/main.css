@@ -31,9 +31,9 @@
 
 #background {
   background-repeat: repeat;
-  background-color: white;
-  background-size: 250px 250px;
-  background-image: var(--tile-url);
+  background-size: 75px 75px;
+  background-image: url('../images/white_on_blue_azulejo_noise.png');
+  /* background-size: cover; */
 }
 
 .hind-mysuru-light {
@@ -136,7 +136,7 @@ li:before {
 
 :root {
   --bullet-point-url: url('../images/bullet_point_2.png');
-  --tile-url: url('../images/azulejo_4_opacity.png');
+  --tile-url: url('../images/orange_on_green_azulejo.png');
 
   --black-hsl: 120, 16.46%, 15.49%;
   --gradient-color: hsla(var(--black-hsl), 1);
