@@ -725,12 +725,6 @@ video {
   width: 100%;
 }
 
-@media (min-width: 640px) {
-  .timeline-entry {
-    width: 50%;
-  }
-}
-
 /* Timeline line - defaults to right of entry */
 
 .timeline-entry::before {
@@ -749,17 +743,6 @@ video {
 
 .timeline-entry:last-child::before {
   border: none;
-}
-
-/* Timeline line - force it to the left of entry for .timeline-entry.timeline-right elemens */
-
-/* Match .timeline-right elements */
-
-@media (min-width: 640px) {
-  .timeline-entry[class*='timeline-left']::before {
-    left: unset;
-    right: calc(var(--timeline-width) / 2 * -1);
-  }
 }
 
 /* Timeline line - should be dashed for free time */
@@ -783,25 +766,16 @@ video {
   z-index: 1;
 }
 
-@media (min-width: 640px) {
-  .timeline-entry[class*='timeline-left']::after {
-    left: unset;
-    right: var(--timeline-dot-adjustment);
-  }
-}
-
 /* Place the container to the left */
+
+.timeline-left {
+  left: 0;
+}
 
 /* Place the container to the right */
 
 .timeline-right {
   left: 0;
-}
-
-@media (min-width: 640px) {
-  .timeline-right {
-    left: 50%;
-  }
 }
 
 .sr-only {
@@ -837,36 +811,12 @@ video {
   bottom: 0px;
 }
 
-.bottom-0 {
-  bottom: 0px;
-}
-
-.bottom-5 {
-  bottom: 1.25rem;
-}
-
 .left-0 {
   left: 0px;
 }
 
-.left-5 {
-  left: 1.25rem;
-}
-
-.right-0 {
-  right: 0px;
-}
-
-.right-5 {
-  right: 1.25rem;
-}
-
 .top-0 {
   top: 0px;
-}
-
-.top-5 {
-  top: 1.25rem;
 }
 
 .-z-40 {
@@ -906,10 +856,6 @@ video {
 .my-2 {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
-}
-
-.-mt-32 {
-  margin-top: -8rem;
 }
 
 .block {
@@ -962,10 +908,6 @@ video {
   height: 2rem;
 }
 
-.h-\[16px\] {
-  height: 16px;
-}
-
 .h-\[24px\] {
   height: 24px;
 }
@@ -982,8 +924,20 @@ video {
   height: 100%;
 }
 
+.h-20 {
+  height: 5rem;
+}
+
+.max-h-\[300px\] {
+  max-height: 300px;
+}
+
 .max-h-\[600px\] {
   max-height: 600px;
+}
+
+.min-h-\[250px\] {
+  min-height: 250px;
 }
 
 .min-h-\[550px\] {
@@ -994,16 +948,8 @@ video {
   width: 50%;
 }
 
-.w-4 {
-  width: 1rem;
-}
-
 .w-\[125px\] {
   width: 125px;
-}
-
-.w-\[16px\] {
-  width: 16px;
 }
 
 .w-\[20px\] {
@@ -1044,10 +990,6 @@ video {
 
 .flex-1 {
   flex: 1 1 0%;
-}
-
-.flex-none {
-  flex: none;
 }
 
 .flex-grow {
@@ -1163,10 +1105,6 @@ video {
   background-position: center;
 }
 
-.bg-top {
-  background-position: top;
-}
-
 .bg-no-repeat {
   background-repeat: no-repeat;
 }
@@ -1247,10 +1185,6 @@ video {
 
 .pt-2 {
   padding-top: 0.5rem;
-}
-
-.pt-32 {
-  padding-top: 8rem;
 }
 
 .pt-8 {

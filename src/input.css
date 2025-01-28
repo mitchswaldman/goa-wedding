@@ -119,12 +119,6 @@
     width: 100%;
   }
 
-  @screen sm {
-    .timeline-entry {
-      width: 50%;
-    }
-  }
-
   /* Timeline line - defaults to right of entry */
   .timeline-entry::before {
     content: '';
@@ -144,14 +138,6 @@
     border: none;
   }
 
-  /* Timeline line - force it to the left of entry for .timeline-entry.timeline-right elemens */
-  /* Match .timeline-right elements */
-  @screen sm {
-    .timeline-entry[class*='timeline-left']::before {
-      left: unset;
-      right: calc(var(--timeline-width) / 2 * -1);
-    }
-  }
   /* Timeline line - should be dashed for free time */
   .timeline-entry.timeline-empty::before {
     border-style: dashed;
@@ -171,13 +157,6 @@
     z-index: 1;
   }
 
-  @screen sm {
-    .timeline-entry[class*='timeline-left']::after {
-      left: unset;
-      right: var(--timeline-dot-adjustment);
-    }
-  }
-
   /* Place the container to the left */
   .timeline-left {
     left: 0;
@@ -186,11 +165,5 @@
   /* Place the container to the right */
   .timeline-right {
     left: 0;
-  }
-
-  @screen sm {
-    .timeline-right {
-      left: 50%;
-    }
   }
 }
