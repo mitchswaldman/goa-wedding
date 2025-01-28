@@ -63,7 +63,7 @@
   }
 
   .bg-leaf-divider {
-    background-image: url('../images/leaf_divider.png');
+    background-image: url('../images/leaf_divider_light.png');
   }
 
   .bg-paper-texture {
@@ -123,8 +123,8 @@
   .timeline-entry::before {
     content: '';
     position: absolute;
-    border-right: calc(var(--timeline-width) / 2) solid var(--india-orange);
-    border-left: calc(var(--timeline-width) / 2) solid var(--india-orange);
+    border-right: calc(var(--timeline-width) / 2) solid var(--india-green);
+    border-left: calc(var(--timeline-width) / 2) solid var(--india-green);
     top: 20px;
     bottom: -20px;
     left: calc(var(--timeline-width) / 2 * -1);
@@ -150,8 +150,8 @@
     width: var(--timeline-dot-diameter);
     height: var(--timeline-dot-diameter);
     left: var(--timeline-dot-adjustment);
-    background-color: var(--india-orange);
-    border: 4px solid var(--india-orange);
+    background-color: var(--india-green);
+    border: 4px solid var(--india-green);
     top: 15px;
     border-radius: 50%;
     z-index: 1;

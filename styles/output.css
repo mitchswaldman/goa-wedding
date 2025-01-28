@@ -679,12 +679,8 @@ video {
   text-shadow: 2px 1px 0 rgb(59 120 82);
 }
 
-.bg-star {
-  background-image: url('../images/bullet_point_2.png');
-}
-
 .bg-leaf-divider {
-  background-image: url('../images/leaf_divider.png');
+  background-image: url('../images/leaf_divider_light.png');
 }
 
 .bg-paper-texture {
@@ -730,8 +726,8 @@ video {
 .timeline-entry::before {
   content: '';
   position: absolute;
-  border-right: calc(var(--timeline-width) / 2) solid var(--india-orange);
-  border-left: calc(var(--timeline-width) / 2) solid var(--india-orange);
+  border-right: calc(var(--timeline-width) / 2) solid var(--india-green);
+  border-left: calc(var(--timeline-width) / 2) solid var(--india-green);
   top: 20px;
   bottom: -20px;
   left: calc(var(--timeline-width) / 2 * -1);
@@ -759,18 +755,14 @@ video {
   width: var(--timeline-dot-diameter);
   height: var(--timeline-dot-diameter);
   left: var(--timeline-dot-adjustment);
-  background-color: var(--india-orange);
-  border: 4px solid var(--india-orange);
+  background-color: var(--india-green);
+  border: 4px solid var(--india-green);
   top: 15px;
   border-radius: 50%;
   z-index: 1;
 }
 
 /* Place the container to the left */
-
-.timeline-left {
-  left: 0;
-}
 
 /* Place the container to the right */
 
@@ -896,6 +888,10 @@ video {
   height: 4rem;
 }
 
+.h-20 {
+  height: 5rem;
+}
+
 .h-4 {
   height: 1rem;
 }
@@ -912,20 +908,12 @@ video {
   height: 24px;
 }
 
-.h-\[36px\] {
-  height: 36px;
-}
-
-.h-\[60px\] {
-  height: 60px;
+.h-\[30px\] {
+  height: 30px;
 }
 
 .h-full {
   height: 100%;
-}
-
-.h-20 {
-  height: 5rem;
 }
 
 .max-h-\[300px\] {
@@ -948,20 +936,12 @@ video {
   width: 50%;
 }
 
-.w-\[125px\] {
-  width: 125px;
-}
-
 .w-\[20px\] {
   width: 20px;
 }
 
-.w-\[36px\] {
-  width: 36px;
-}
-
-.w-\[400px\] {
-  width: 400px;
+.w-\[80px\] {
+  width: 80px;
 }
 
 .w-full {
@@ -1089,10 +1069,6 @@ video {
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
-.bg-\[size\:36px\] {
-  background-size: 36px;
-}
-
 .bg-contain {
   background-size: contain;
 }
@@ -1141,6 +1117,11 @@ video {
 .py-1 {
   padding-top: 0.25rem;
   padding-bottom: 0.25rem;
+}
+
+.py-12 {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 
 .py-16 {

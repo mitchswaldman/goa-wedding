@@ -119,7 +119,9 @@ li:before {
 .egyptian {
   font-family: var(--tsw-header-font-family), sans-serif;
   color: #ff0606;
-  text-shadow: 1px 1px 0 #ffffff, /* Black shadow for depth */ 2px 2px 0 #ffcc00; /* Thin red shadow for an outline */
+  text-shadow:
+    1px 1px 0 #ffffff,
+    /* Black shadow for depth */ 2px 2px 0 #ffcc00; /* Thin red shadow for an outline */
 }
 
 .font-lg {
@@ -147,6 +149,7 @@ li:before {
   /* timeline */
   --india-red: rgb(209 0 0);
   --india-orange: rgb(230, 153, 42);
+  --india-green: rgb(59 120 82);
   --timeline-width: 2px;
   --timeline-dot-diameter: 16px;
   --timeline-dot-adjustment: calc(
