@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+@theme {
+  --breakpoint-xs: 30rem;
+}
+
 @layer base {
   @font-face {
     font-family: 'EphemeraEgyptian';
@@ -35,9 +39,9 @@
   }
 
   .btn-brutalist {
-    @apply border-india-green border-4 px-2 py-1 text-india-green font-india;
+    @apply border-india-green border-4 px-2 py-1 text-india-green font-india rounded-sm;
     transition: all 0.3s ease;
-    text-decoration: underline;
+    /* text-decoration: underline; */
   }
 
   .btn-brutalist:hover,
