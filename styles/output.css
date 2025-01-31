@@ -962,6 +962,18 @@ video {
   width: 100%;
 }
 
+.w-\[320px\] {
+  width: 320px;
+}
+
+.w-\[315px\] {
+  width: 315px;
+}
+
+.w-\[300px\] {
+  width: 300px;
+}
+
 .min-w-\[300px\] {
   min-width: 300px;
 }
