@@ -44,8 +44,7 @@
     /* text-decoration: underline; */
   }
 
-  .btn-brutalist:hover,
-  .btn-brutalist:active {
+  .btn-brutalist:hover {
     @apply text-white border-white;
     transition: all 0.3s ease;
   }
